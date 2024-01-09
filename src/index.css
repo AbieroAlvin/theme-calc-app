@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --mainBg: hsl(222, 26%, 31%);
+    --togglePadBg: hsl(223, 31%, 20%);
+    --screenBg: hsl(224, 36%, 15%);
+    --resetDelShadow: hsl(225, 21%, 49%);
+    --resetDelBg: hsl(224, 28%, 35%);
+    --equalsBg: hsl(6, 63%, 50%);
+    --equalsShadow: hsl(6, 70%, 34%);
+    --normalShadow: hsl(30, 25%, 89%);
+    --normalBg: hsl(28, 16%, 65%);
+    --toggleBg: hsl(6, 63%, 50%);
+    --textResetDel: hsl(0, 0%, 100%);
+    --textNormal: hsl(221, 14%, 31%);
+    --textHeader: hsl(0, 0%, 100%);
+    --textScreen: hsl(0, 0%, 100%);
+    --textEquals: hsl(0, 0%, 100%);
+  }
+
+  [data-theme="1"] {
+    --mainBg: hsl(222, 26%, 31%);
+    --togglePadBg: hsl(223, 31%, 20%);
+    --screenBg: hsl(224, 36%, 15%);
+    --resetDelShadow: hsl(225, 21%, 49%);
+    --resetDelBg: hsl(224, 28%, 35%);
+    --equalsBg: hsl(6, 63%, 50%);
+    --equalsShadow: hsl(6, 70%, 34%);
+    --normalShadow: hsl(30, 25%, 89%);
+    --normalBg: hsl(28, 16%, 65%);
+    --toggleBg: hsl(6, 63%, 50%);
+    --textResetDel: hsl(0, 0%, 100%);
+    --textNormal: hsl(221, 14%, 31%);
+    --textHeader: hsl(0, 0%, 100%);
+    --textScreen: hsl(0, 0%, 100%);
+    --textEquals: hsl(0, 0%, 100%);
+  }
+
+  [data-theme="2"] {
+    --mainBg: hsl(0, 0%, 90%);
+    --togglePadBg: hsl(0, 5%, 81%);
+    --screenBg: hsl(0, 0%, 93%);
+    --resetDelShadow: hsl(185, 42%, 37%);
+    --resetDelBg: hsl(185, 58%, 25%);
+    --equalsBg: hsl(25, 98%, 40%);
+    --equalsShadow: hsl(25, 99%, 27%);
+    --normalShadow: hsl(45, 7%, 89%);
+    --normalBg: hsl(35, 11%, 61%);
+    --toggleBg: hsl(25, 98%, 40%);
+    --textResetDel: hsl(0, 0%, 100%);
+    --textNormal: hsl(60, 10%, 19%);
+    --textHeader: hsl(60, 10%, 19%);
+    --textScreen: hsl(60, 10%, 19%);
+    --textEquals: hsl(0, 0%, 100%);
+  }
+
+  [data-theme="3"] {
+    --mainBg: hsl(268, 75%, 9%);
+    --togglePadBg: hsl(268, 71%, 12%);
+    --screenBg: hsl(268, 71%, 12%);
+    --resetDelShadow: hsl(281, 89%, 26%);
+    --resetDelBg: hsl(285, 91%, 52%);
+    --equalsBg: hsl(176, 100%, 44%);
+    --equalsShadow: hsl(177, 92%, 70%);
+    --normalShadow: hsl(268, 47%, 21%);
+    --normalBg: hsl(290, 70%, 36%);
+    --toggleBg: hsl(176, 100%, 44%);
+    --textResetDel: hsl(0, 0%, 100%);
+    --textNormal: hsl(52, 100%, 62%);
+    --textHeader: hsl(52, 100%, 62%);
+    --textScreen: hsl(52, 100%, 62%);
+    --textEquals: hsl(198, 20%, 13%);
+  }
+}
